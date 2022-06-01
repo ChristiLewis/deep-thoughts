@@ -14,7 +14,7 @@ const resolvers = {
             return userData;
         },
 
-        
+
         //ALL
         thoughts: async (parent, { username }) => {
             const params = username ? { username } : {};
